@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Pastikan keduanya mengisi lebar viewport */
+  box-sizing: border-box; /* Agar padding dan border termasuk dalam perhitungan lebar */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; /* Wariskan box-sizing ke semua elemen */
+  max-width: 100%; /* Mencegah elemen melebihi lebar parent */
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto; /* Jaga aspek rasio gambar dan video */
+}
