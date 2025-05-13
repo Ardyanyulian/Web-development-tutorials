@@ -55,6 +55,7 @@ $i = 1;
                 <th>Name</th>
                 <th>Kategori</th>
                 <th>Jumlah</th>
+                <th>Foto</th>
                 <th>Pengaturan</th>
             </tr>
         </thead>
@@ -65,6 +66,9 @@ $i = 1;
                     <td><?php echo $row['name']; ?></td>
                     <td><?php echo  $row['kategori'];?></td>
                     <td><?php echo $row['jumlah']; ?></td>
+                    <td>
+                        <img style="width: 100px; height: 100px;" src="<?php echo $row['foto'];?>" alt="">
+                    </td>
                     <td>
                             <a href="../admins/hapus.php?id=<?php echo $row['id']; ?>">Hapus</a>
                             <a href="../admins/ubah.php?id=<?php echo $row['id'];?>">Ubah</a>

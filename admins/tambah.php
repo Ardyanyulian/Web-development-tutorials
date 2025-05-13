@@ -42,7 +42,7 @@ if (isset($_POST['submit']))
 </head>
 <body>
     <h1>Add Products</h1>
-    <form action="" method="POST">
+    <form action="" method="POST" enctype="multipart/form-data">
         <ul>
             <li>
                 <label for="name">Name :</label>
@@ -55,6 +55,10 @@ if (isset($_POST['submit']))
             <li>
                 <label for="jumlah">Jumlah :</label>
                 <input type="text" name='jumlah' id="jumlah" required>
+            </li>
+            <li>
+                <label for="gambar">Gambar</label>
+                <input type="file" name="gambar" id="gambar" required>
             </li>
             <li>
                 <button type="submit" name="submit">Submit !</button>
