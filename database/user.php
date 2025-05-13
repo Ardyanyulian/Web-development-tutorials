@@ -12,7 +12,6 @@
         <li><?php echo $_GET['nomor']; ?></li>
         <li><?php echo $_GET['gender']; ?></li>
     </ul>
-    
     <a href="../index.php">Back</a>
 </body>
 </html>

@@ -1,0 +1,11 @@
+table {
+    width: 100%; /* Lebar tabel */
+    border-collapse: collapse; /* Menggabungkan border sel */
+    margin-bottom: 20px; /* Margin bawah tabel */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Border untuk sel header dan data */
+    padding: 8px; /* Ruang di dalam sel */
+    text-align: left; /* Alignment teks dalam sel */
+}
